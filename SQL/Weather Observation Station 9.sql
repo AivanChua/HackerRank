@@ -1,0 +1,1 @@
+SELECT DISTINCT CITY FROM STATION WHERE NOT LEFT(CITY,1) in ('a', 'e', 'i', 'o', 'u');
