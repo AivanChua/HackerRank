@@ -14,7 +14,7 @@ int max_of_four(int a, int b, int c, int d){
     else if((c > a) && (c > b) && (c > d)){
         max = c;
     }
-    else if((d > a) && (d > c) && (d > b)){
+    else if((d > a) && (d > b) && (d > c)){
         max = d;
     }
     return max;
